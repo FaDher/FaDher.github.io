@@ -366,8 +366,8 @@ img[lazyload] {
   --sec-text-color: #718096;
   --post-text-color: #2c3e50;
   --post-heading-color: #2a206c;
-  --post-link-color: #2277FF;
-  --link-hover-color: #FD8203;
+  --post-link-color: #0A4FF4;
+  --link-hover-color: #FD7812;
   --link-hover-bg-color: #f8f9fa;
   --navbar-bg-color: #2f4154;
   --navbar-text-color: #fff;
@@ -385,7 +385,7 @@ img[lazyload] {
     --sec-text-color: #a7a9ad;
     --post-text-color: #c4c6c9;
     --post-heading-color: #c4c6c9;
-    --post-link-color: #ff2e63;
+    --post-link-color: #FF4FAF;
     --link-hover-color: #08d9d6;
     --link-hover-bg-color: #364151;
     --navbar-bg-color: #1f3144;
@@ -458,7 +458,7 @@ img[lazyload] {
   --sec-text-color: #a7a9ad;
   --post-text-color: #c4c6c9;
   --post-heading-color: #c4c6c9;
-  --post-link-color: #ff2e63;
+  --post-link-color: #FF4FAF;
   --link-hover-color: #08d9d6;
   --link-hover-bg-color: #364151;
   --navbar-bg-color: #1f3144;

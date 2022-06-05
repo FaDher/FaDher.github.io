@@ -4,13 +4,19 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2022/03/10/%E5%92%B8%E5%AE%81%E6%B8%A9%E6%B3%89/"/>
-    <url>/2022/03/10/%E5%92%B8%E5%AE%81%E6%B8%A9%E6%B3%89/</url>
+    <title>Manim尝试</title>
+    <link href="/2022/05/29/Manim%E5%B0%9D%E8%AF%95/"/>
+    <url>/2022/05/29/Manim%E5%B0%9D%E8%AF%95/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="Manim安装"><a href="#Manim安装" class="headerlink" title="Manim安装"></a>Manim安装</h1><p>现在有许多个官方认可的Manim版本，除了 3b1b 原作者 Grant Sanderson 的纯正 Manim，已经升级用OpenGL渲染在 pypi 上名为 <code>manimgl</code>之外，还有一个常用的是 Manim Community 从原作者那 fork 而来并以高效和稳定为目标升级版 manim <code>manimce</code>，还有国内的 Manim Kindergarten 保留曾经使用 Cario 渲染的manim版本，安装名为<code>manimlib</code>。</p><p>前两个版本的安装方式都在其说明文档中有详细介绍（各个版本在其Github页面也都有介绍）：</p><blockquote><p><a href="https://3b1b.github.io/manim/index.html">Home - manim documentation (3b1b.github.io)</a></p></blockquote><blockquote><p><a href="https://docs.manim.community/en/stable/index.html">Manim Community v0.15.2</a></p></blockquote><p>运行生成动画的指令也不相同<br>manimGL：</p><figure class="highlight powershell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs powershell">manim<span class="hljs-literal">-render</span> &lt;file.py&gt; &lt;scenename&gt; &lt;flags&gt;<br></code></pre></div></td></tr></table></figure><p>manimCE：</p><figure class="highlight powershell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs powershell">manim<span class="hljs-literal">-render</span> &lt;flags&gt; &lt;file.py&gt; &lt;scenename&gt;<br></code></pre></div></td></tr></table></figure><p>两个版本我都有安装，各取所需:</p><ul><li><code>manimgl</code> 可以交互式控制 Camera，并且其中 <code>manimlib</code> 包含有作者写过的大量案例，可以直接调用这些写好的类。<code>cario-backend</code>版本还能使用国内 Manim Kindergarten 上传的 Sandbox，作为参考使用。（运行好像storkes都渲染不出来）</li><li><code>manimce</code> 可以使用 Jupyter 和 Docker ， Vscode商店中也更新了对应社区版的 Manim Sideview，其渲染速度更快，使用更规范更方便。 </li></ul><h2 id="端午的Manim小成果"><a href="#端午的Manim小成果" class="headerlink" title="端午的Manim小成果"></a>端午的Manim小成果</h2><p>李萨如曲线粽子</p><iframe src="//player.bilibili.com/player.html?aid=469640508&bvid=BV1J5411Q7nA&cid=737149245&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"height="600"width="100%"> </iframe><p>平面变换粽子</p><iframe src="//player.bilibili.com/player.html?aid=384743258&bvid=BV1jZ4y1t7qc&cid=738381235&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"height="600"width="100%"> </iframe>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>技术</tag>
+      
+    </tags>
     
   </entry>
   
